@@ -27,7 +27,7 @@ git config --global --remove-section filter.lfs
 git clone https://github.com/UAV-Swarm/tools-OmniNxtSimulator.git
 cd tools-OmniNxtSimulator
 git lfs install
-git config lfs.url "https://public:Public123@repo.hkust-uav.online/artifactory/api/lfs/swarm-lfs"
+git config lfs.url "https://public:Public123@repo.hkust-uav.org/artifactory/api/lfs/swarm-lfs"
 
 # Pull the models
 git lfs pull
